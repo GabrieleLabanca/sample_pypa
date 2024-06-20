@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mypack"
+version = "2024.06.17"
+dependencies = [
+  "tqdm",
+]
+
+[project.optional-dependencies]
+sci = ["numpy", "pandas"]
